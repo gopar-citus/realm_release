@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../runtime-api/0.0.1-SNAPSHOT/runtime-api-0.0.1-SNAPSHOT.module",
+    "group": "io.realm.kotlin",
+    "module": "runtime-api",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "vcdovjfpurfhxbqb47bplm7tsm"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-api-jvm-0.0.1-SNAPSHOT.jar",
+          "url": "runtime-api-jvm-0.0.1-SNAPSHOT.jar",
+          "size": 4733,
+          "sha512": "fcda9c77fc71c7af0c7a5522fb42b033e9f03afd4472049ba48ff2d99eaf65821e19409fa1850e006ad6e51e1e3163a3bac8e7aeb1c3aedfa12103c28d11538d",
+          "sha256": "4edf03fe8b842a4579124059dff7c8b1290c783af11c48a99fd0898d930f5615",
+          "sha1": "2b3ff79e1b534cd3e2e5eb3520d4f08532b82197",
+          "md5": "deb4fc0a2a9b776d20a1cfe0df22a757"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-api-jvm-0.0.1-SNAPSHOT.jar",
+          "url": "runtime-api-jvm-0.0.1-SNAPSHOT.jar",
+          "size": 4733,
+          "sha512": "fcda9c77fc71c7af0c7a5522fb42b033e9f03afd4472049ba48ff2d99eaf65821e19409fa1850e006ad6e51e1e3163a3bac8e7aeb1c3aedfa12103c28d11538d",
+          "sha256": "4edf03fe8b842a4579124059dff7c8b1290c783af11c48a99fd0898d930f5615",
+          "sha1": "2b3ff79e1b534cd3e2e5eb3520d4f08532b82197",
+          "md5": "deb4fc0a2a9b776d20a1cfe0df22a757"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../runtime-api-metadata/0.0.1-SNAPSHOT/runtime-api-metadata-0.0.1-SNAPSHOT.module",
+        "group": "io.realm.kotlin",
+        "module": "runtime-api-metadata",
+        "version": "0.0.1-SNAPSHOT"
+      }
+    }
+  ]
+}
