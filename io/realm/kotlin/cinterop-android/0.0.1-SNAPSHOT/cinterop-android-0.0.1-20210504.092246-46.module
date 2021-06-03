@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../cinterop/0.0.1-SNAPSHOT/cinterop-0.0.1-SNAPSHOT.module",
+    "group": "io.realm.kotlin",
+    "module": "cinterop",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "fc4grno7vbd6vfqxbuf7qv6mrm"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.30"
+          }
+        },
+        {
+          "group": "io.realm.kotlin",
+          "module": "jni-swig-stub",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cinterop-release.aar",
+          "url": "cinterop-android-0.0.1-SNAPSHOT.aar",
+          "size": 4608680,
+          "sha512": "2215135bf1029100e71930eb53fe91738505643fec5eb42d174a220396bced3bfc012edcbee2de73fee260d53f3a64e4ace0dbebe8c3d9093fc6d6483ca3fcc7",
+          "sha256": "6c2035720d1a3779d4b1412583aeb7ea3711f6bd7fba6bb969c86b59e3780355",
+          "sha1": "84d48a1e827e01229aa2e13dea18dec35ea81e24",
+          "md5": "5101aede255d6c1b255ee8eeaf5419ed"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.30"
+          }
+        },
+        {
+          "group": "io.realm.kotlin",
+          "module": "jni-swig-stub",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cinterop-release.aar",
+          "url": "cinterop-android-0.0.1-SNAPSHOT.aar",
+          "size": 4608680,
+          "sha512": "2215135bf1029100e71930eb53fe91738505643fec5eb42d174a220396bced3bfc012edcbee2de73fee260d53f3a64e4ace0dbebe8c3d9093fc6d6483ca3fcc7",
+          "sha256": "6c2035720d1a3779d4b1412583aeb7ea3711f6bd7fba6bb969c86b59e3780355",
+          "sha1": "84d48a1e827e01229aa2e13dea18dec35ea81e24",
+          "md5": "5101aede255d6c1b255ee8eeaf5419ed"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../cinterop-metadata/0.0.1-SNAPSHOT/cinterop-metadata-0.0.1-SNAPSHOT.module",
+        "group": "io.realm.kotlin",
+        "module": "cinterop-metadata",
+        "version": "0.0.1-SNAPSHOT"
+      }
+    }
+  ]
+}
