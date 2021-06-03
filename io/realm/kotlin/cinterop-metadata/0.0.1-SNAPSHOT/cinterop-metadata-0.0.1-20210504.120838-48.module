@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../cinterop-macos/0.0.1-SNAPSHOT/cinterop-macos-0.0.1-SNAPSHOT.module",
+    "group": "io.realm.kotlin",
+    "module": "cinterop-macos",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "6jiry4a3indwzhd2gt6t5oxrei"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "cinterop-metadata-0.0.1-SNAPSHOT.jar",
+          "url": "cinterop-metadata-0.0.1-SNAPSHOT.jar",
+          "size": 6929,
+          "sha512": "9b72703e74662566145caae2582e91a7fe497cc10288618fa3add370cc3ce3c93298f159762db5e22d27a056aac42394b00de80f4a760e29366f5f7f5244f372",
+          "sha256": "655bb07a2fb1a0ccadf4cea49bd29fb3576826c43926692665b9a93596ab0055",
+          "sha1": "871d58e53133c8df2d8a430b9cd24aa7d19cf5f9",
+          "md5": "e21cdcb351a94797eae8cb91328d9197"
+        }
+      ]
+    }
+  ]
+}
