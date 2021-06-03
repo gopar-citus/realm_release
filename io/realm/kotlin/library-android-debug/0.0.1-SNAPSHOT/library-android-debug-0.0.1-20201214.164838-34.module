@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../library/0.0.1-SNAPSHOT/library-0.0.1-SNAPSHOT.module",
+    "group": "io.realm.kotlin",
+    "module": "library",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "m7attuko7vcgfgg46equzi2x2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.realm.kotlin",
+          "module": "runtime-api",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.realm.kotlin",
+          "module": "cinterop",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-debug.aar",
+          "url": "library-android-debug-0.0.1-SNAPSHOT.aar",
+          "size": 20369,
+          "sha512": "e06f855e9c458ebd9f09d2d20d432bda99a5f37628cdcbb2f187ea1881ce76261a05a5b2f6dd735c7f9e83b3b2d394b9d45fdccffd7e2297952276f4c91c56e8",
+          "sha256": "17d965a1abce9a5e45e633625fcbd4affedc13b9523f51a0c01d24c9bbdaa4d9",
+          "sha1": "53b1ede4e0e5ef2b03770d4cb2ee08741a85f302",
+          "md5": "613037b521615f9ccf6ca639dfb2709d"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.realm.kotlin",
+          "module": "runtime-api",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.realm.kotlin",
+          "module": "cinterop",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-debug.aar",
+          "url": "library-android-debug-0.0.1-SNAPSHOT.aar",
+          "size": 20369,
+          "sha512": "e06f855e9c458ebd9f09d2d20d432bda99a5f37628cdcbb2f187ea1881ce76261a05a5b2f6dd735c7f9e83b3b2d394b9d45fdccffd7e2297952276f4c91c56e8",
+          "sha256": "17d965a1abce9a5e45e633625fcbd4affedc13b9523f51a0c01d24c9bbdaa4d9",
+          "sha1": "53b1ede4e0e5ef2b03770d4cb2ee08741a85f302",
+          "md5": "613037b521615f9ccf6ca639dfb2709d"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../library-metadata/0.0.1-SNAPSHOT/library-metadata-0.0.1-SNAPSHOT.module",
+        "group": "io.realm.kotlin",
+        "module": "library-metadata",
+        "version": "0.0.1-SNAPSHOT"
+      }
+    }
+  ]
+}

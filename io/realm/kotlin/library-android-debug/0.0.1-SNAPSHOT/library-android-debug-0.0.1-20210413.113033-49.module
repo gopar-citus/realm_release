@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../library/0.0.1-SNAPSHOT/library-0.0.1-SNAPSHOT.module",
+    "group": "io.realm.kotlin",
+    "module": "library",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "ifh4kenyvjenhdje3a3eqlo2km"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.realm.kotlin",
+          "module": "cinterop",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-debug.aar",
+          "url": "library-android-debug-0.0.1-SNAPSHOT.aar",
+          "size": 33692,
+          "sha512": "4b7da5c3a499ba92cd8a446157479f3cec102cb353c8af78a92a79f1f0db9e374cc6f220d3cc61539fd84ce5332cf6bc6f801e18ff97f14d92fe75b1b0b789bc",
+          "sha256": "70a0d18ff55b4a8295672bd236618fa3530c9744d58345b96d1f3fb0c963fc9f",
+          "sha1": "be2a9523c43577f4a61cdd2bb2027379479b8eca",
+          "md5": "31e4e64e27b5fe84e53304d7983fd9a1"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.realm.kotlin",
+          "module": "cinterop",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-debug.aar",
+          "url": "library-android-debug-0.0.1-SNAPSHOT.aar",
+          "size": 33692,
+          "sha512": "4b7da5c3a499ba92cd8a446157479f3cec102cb353c8af78a92a79f1f0db9e374cc6f220d3cc61539fd84ce5332cf6bc6f801e18ff97f14d92fe75b1b0b789bc",
+          "sha256": "70a0d18ff55b4a8295672bd236618fa3530c9744d58345b96d1f3fb0c963fc9f",
+          "sha1": "be2a9523c43577f4a61cdd2bb2027379479b8eca",
+          "md5": "31e4e64e27b5fe84e53304d7983fd9a1"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../library-metadata/0.0.1-SNAPSHOT/library-metadata-0.0.1-SNAPSHOT.module",
+        "group": "io.realm.kotlin",
+        "module": "library-metadata",
+        "version": "0.0.1-SNAPSHOT"
+      }
+    }
+  ]
+}

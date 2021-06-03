@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.realm.kotlin",
+    "module": "jni-swig-stub",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "somvrmu74revpa67xwwsm5fbn4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jni-swig-stub-0.0.1-SNAPSHOT.jar",
+          "url": "jni-swig-stub-0.0.1-SNAPSHOT.jar",
+          "size": 49041,
+          "sha512": "c7d4f3de496f937bdfbbd353444f81e16318754fda6fdb0566bcfbff8be1383c9b0279802aa3ff118c94432ed5f19f959a9a330f94b5e48efff6b04ac4c78d69",
+          "sha256": "e5e3511d93466dc22691a4bc2c55ad097ccd7a15d1a703a31e84a021e818ef62",
+          "sha1": "1d170c8d2b365860f87e5a6cb602594523fec9e6",
+          "md5": "354317735c26ef93ea47a94b4d87f8bc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jni-swig-stub-0.0.1-SNAPSHOT.jar",
+          "url": "jni-swig-stub-0.0.1-SNAPSHOT.jar",
+          "size": 49041,
+          "sha512": "c7d4f3de496f937bdfbbd353444f81e16318754fda6fdb0566bcfbff8be1383c9b0279802aa3ff118c94432ed5f19f959a9a330f94b5e48efff6b04ac4c78d69",
+          "sha256": "e5e3511d93466dc22691a4bc2c55ad097ccd7a15d1a703a31e84a021e818ef62",
+          "sha1": "1d170c8d2b365860f87e5a6cb602594523fec9e6",
+          "md5": "354317735c26ef93ea47a94b4d87f8bc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jni-swig-stub-0.0.1-SNAPSHOT-sources.jar",
+          "url": "jni-swig-stub-0.0.1-SNAPSHOT-sources.jar",
+          "size": 38176,
+          "sha512": "8014974441a14f79458f11bd743e3aebaaf0e796ed3d5b14101391b4d08906e3a5c8dcf6d133ca718c9d0205acc55d75400cdd49c076e3313acc38c6105e8e01",
+          "sha256": "47b7e421f1eee0c19b5beedab7ff6a7233f38a934c21772677a7b360e40dfbb8",
+          "sha1": "0c6b9722d91269c948f4f91aff39cce666d60d9a",
+          "md5": "aa4144d90a26625e9053527a0321735c"
+        }
+      ]
+    }
+  ]
+}

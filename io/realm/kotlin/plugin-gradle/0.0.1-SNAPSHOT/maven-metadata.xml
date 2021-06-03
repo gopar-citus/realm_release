@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>io.realm.kotlin</groupId>
+  <artifactId>plugin-gradle</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20201110.091041</timestamp>
+      <buildNumber>13</buildNumber>
+    </snapshot>
+    <lastUpdated>20201110091051</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.1-20201110.091041-13</value>
+        <updated>20201110091041</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.1-20201110.091041-13</value>
+        <updated>20201110091041</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.0.1-20201110.091041-13</value>
+        <updated>20201110091041</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

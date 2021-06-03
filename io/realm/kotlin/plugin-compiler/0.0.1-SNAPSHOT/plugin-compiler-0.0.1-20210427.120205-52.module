@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.realm.kotlin",
+    "module": "plugin-compiler",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "5bzl6lpmkjc5npvscs26gj5b7u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-compiler-0.0.1-SNAPSHOT.jar",
+          "url": "plugin-compiler-0.0.1-SNAPSHOT.jar",
+          "size": 129988,
+          "sha512": "9d441a7eddbd60f9bd92e0d1cf824b143b5e96241052fdf7d904ba2b244d17e57bbd4ae388f773f77df724e8f695fd8380160af270326b27ea243275e789c9fd",
+          "sha256": "e6f6988e8c37528b409cf7a05736a73cbbb082331517f21bf0555bb04a5b886f",
+          "sha1": "e5ece53dbefb72438953a4deba703eb0afb1b566",
+          "md5": "ba3898dc5dad9f28c909a2b8f0e5d89d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-compiler-0.0.1-SNAPSHOT.jar",
+          "url": "plugin-compiler-0.0.1-SNAPSHOT.jar",
+          "size": 129988,
+          "sha512": "9d441a7eddbd60f9bd92e0d1cf824b143b5e96241052fdf7d904ba2b244d17e57bbd4ae388f773f77df724e8f695fd8380160af270326b27ea243275e789c9fd",
+          "sha256": "e6f6988e8c37528b409cf7a05736a73cbbb082331517f21bf0555bb04a5b886f",
+          "sha1": "e5ece53dbefb72438953a4deba703eb0afb1b566",
+          "md5": "ba3898dc5dad9f28c909a2b8f0e5d89d"
+        }
+      ]
+    }
+  ]
+}

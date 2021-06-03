@@ -1,0 +1,47 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../library-macos/0.0.1-SNAPSHOT/library-macos-0.0.1-SNAPSHOT.module",
+    "group": "io.realm.kotlin",
+    "module": "library-macos",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "ymqb5ue3g5acraapqs6nyjhqhu"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.realm.kotlin",
+          "module": "runtime-api",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-metadata-0.0.1-SNAPSHOT.jar",
+          "url": "library-metadata-0.0.1-SNAPSHOT.jar",
+          "size": 4402,
+          "sha512": "a5f6058fae08b05f60dc36417e2eb2474dd5c57023b223243e277db9e45c58b123065c465d53009b1429d88ddb9a7a4e62a487c75b81f1ed50299d37a0c56109",
+          "sha256": "9aa922a0a0ad914dc06e8db0dd3caa108eeafd648c6665de10acd3cadd010025",
+          "sha1": "184de3448b738089b0c11a89498dd0e31da9513b",
+          "md5": "d0f4059c3fc61442c6c0e5a080ce4d6c"
+        }
+      ]
+    }
+  ]
+}
