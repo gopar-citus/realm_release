@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../runtime-api/0.0.1-SNAPSHOT/runtime-api-0.0.1-SNAPSHOT.module",
+    "group": "io.realm.kotlin",
+    "module": "runtime-api",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "6bvzy6ueanetjgcafacnxzaapa"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "runtime-api-release.aar",
+          "url": "runtime-api-android-0.0.1-SNAPSHOT.aar",
+          "size": 4156,
+          "sha512": "de03840e452496de181d84b263938e7b5c82eae8f60b9ddb20b7b6e40619745fc8aded8870f8433e8901170d969deff6f6f731cd4319ae67de3ea2ad718eb96c",
+          "sha256": "0ab273f8eb5e6b48daaa57c012cb26d3cacd19279bbfe5b19113139ec7c3f35a",
+          "sha1": "33a7db181cd087c8a096c6d081505563c9d7a69d",
+          "md5": "bd58dffb885f21647672fe233bc573ad"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-api-release.aar",
+          "url": "runtime-api-android-0.0.1-SNAPSHOT.aar",
+          "size": 4156,
+          "sha512": "de03840e452496de181d84b263938e7b5c82eae8f60b9ddb20b7b6e40619745fc8aded8870f8433e8901170d969deff6f6f731cd4319ae67de3ea2ad718eb96c",
+          "sha256": "0ab273f8eb5e6b48daaa57c012cb26d3cacd19279bbfe5b19113139ec7c3f35a",
+          "sha1": "33a7db181cd087c8a096c6d081505563c9d7a69d",
+          "md5": "bd58dffb885f21647672fe233bc573ad"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../runtime-api-metadata/0.0.1-SNAPSHOT/runtime-api-metadata-0.0.1-SNAPSHOT.module",
+        "group": "io.realm.kotlin",
+        "module": "runtime-api-metadata",
+        "version": "0.0.1-SNAPSHOT"
+      }
+    }
+  ]
+}
