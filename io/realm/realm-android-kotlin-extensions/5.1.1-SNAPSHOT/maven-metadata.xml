@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>io.realm</groupId>
+  <artifactId>realm-android-kotlin-extensions</artifactId>
+  <version>5.1.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20180425.143220</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <lastUpdated>20180425143222</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>5.1.1-20180425.133632-1</value>
+        <updated>20180425133632</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>5.1.1-20180425.143220-2</value>
+        <updated>20180425143220</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>5.1.1-20180425.143220-2</value>
+        <updated>20180425143220</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>5.1.1-20180425.143220-2</value>
+        <updated>20180425143220</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

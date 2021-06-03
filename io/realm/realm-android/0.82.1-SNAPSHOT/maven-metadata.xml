@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.realm</groupId>
+  <artifactId>realm-android</artifactId>
+  <version>0.82.1-20150804.120958-1</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20150804.120958</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20150804120955</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.82.1-20150804.120958-1</value>
+        <updated>20150804120958</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.82.1-20150804.120958-1</value>
+        <updated>20150804120958</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.82.1-20150804.120958-1</value>
+        <updated>20150804120958</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

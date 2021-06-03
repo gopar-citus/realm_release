@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.realm</groupId>
+  <artifactId>realm-android</artifactId>
+  <version>0.79.0-20150205.090020-1</version>
+  <versioning>
+    <latest>0.88.0-SNAPSHOT</latest>
+    <versions>
+      <version>0.79.0-SNAPSHOT</version>
+      <version>0.79.2-SNAPSHOT</version>
+      <version>0.80.0-SNAPSHOT</version>
+      <version>0.80.1-SNAPSHOT</version>
+      <version>0.80.2-SNAPSHOT</version>
+      <version>0.80.3-SNAPSHOT</version>
+      <version>0.81-SNAPSHOT</version>
+      <version>0.81.1-SNAPSHOT</version>
+      <version>0.81.2-SNAPSHOT</version>
+      <version>0.82.0-SNAPSHOT</version>
+      <version>0.82.1-SNAPSHOT</version>
+      <version>0.82.2-SNAPSHOT</version>
+      <version>0.83.0-SNAPSHOT</version>
+      <version>0.83.1-SNAPSHOT</version>
+      <version>0.84.0-SNAPSHOT</version>
+      <version>0.84.1-SNAPSHOT</version>
+      <version>0.84.2-SNAPSHOT</version>
+      <version>0.85.0-SNAPSHOT</version>
+      <version>0.86.0-SNAPSHOT</version>
+      <version>0.87.0-SNAPSHOT</version>
+      <version>0.88.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20160226022913</lastUpdated>
+  </versioning>
+</metadata>
