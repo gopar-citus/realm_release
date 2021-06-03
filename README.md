@@ -1,2 +1,2 @@
 # realm_release
-Alternative to jcenter
+Alternative to jcenter.
