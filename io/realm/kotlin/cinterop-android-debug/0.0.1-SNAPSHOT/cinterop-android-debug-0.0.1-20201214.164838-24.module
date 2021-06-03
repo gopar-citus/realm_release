@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../cinterop/0.0.1-SNAPSHOT/cinterop-0.0.1-SNAPSHOT.module",
+    "group": "io.realm.kotlin",
+    "module": "cinterop",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "m7attuko7vcgfgg46equzi2x2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.realm.kotlin",
+          "module": "runtime-api",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "io.realm.kotlin",
+          "module": "jni-swig-stub",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cinterop-debug.aar",
+          "url": "cinterop-android-debug-0.0.1-SNAPSHOT.aar",
+          "size": 4344879,
+          "sha512": "fab89111e9767944be0997f70dace0987c6ae7b7b91b673210ff045ca2aa3cef23d8665913d60e4f879b6d7913acfb545d82041537f65b61366f7e7f1bcb86e1",
+          "sha256": "51276b49cc4e764719be5ee32fe55d023cbaddbe4a844487f9f1a14176b8b33b",
+          "sha1": "eefbc6fedc0e3a7d2a58e575e93fd104238bf02e",
+          "md5": "4fbac702e59d5cb94aa4deac9c79b66b"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.realm.kotlin",
+          "module": "runtime-api",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "io.realm.kotlin",
+          "module": "jni-swig-stub",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cinterop-debug.aar",
+          "url": "cinterop-android-debug-0.0.1-SNAPSHOT.aar",
+          "size": 4344879,
+          "sha512": "fab89111e9767944be0997f70dace0987c6ae7b7b91b673210ff045ca2aa3cef23d8665913d60e4f879b6d7913acfb545d82041537f65b61366f7e7f1bcb86e1",
+          "sha256": "51276b49cc4e764719be5ee32fe55d023cbaddbe4a844487f9f1a14176b8b33b",
+          "sha1": "eefbc6fedc0e3a7d2a58e575e93fd104238bf02e",
+          "md5": "4fbac702e59d5cb94aa4deac9c79b66b"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../cinterop-metadata/0.0.1-SNAPSHOT/cinterop-metadata-0.0.1-SNAPSHOT.module",
+        "group": "io.realm.kotlin",
+        "module": "cinterop-metadata",
+        "version": "0.0.1-SNAPSHOT"
+      }
+    }
+  ]
+}
